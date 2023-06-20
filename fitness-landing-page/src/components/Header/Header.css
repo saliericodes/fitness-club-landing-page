@@ -5,8 +5,8 @@
 }
 
 .logo{
-    width: 10rem;
-    height: 3rem;
+    width: 160px;
+    height: 48px;
     object-fit: cover;
 }
 
@@ -15,6 +15,7 @@
     display: flex;
     gap: 2rem;
     color: white;
+    font-size:12px;
 }
 
 
