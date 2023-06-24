@@ -1,4 +1,5 @@
 import React from 'react'
+import Heart from '../../assets/heart.png'
 import Header from '../Header/Header'
 import './Hero.css'
 
@@ -42,16 +43,20 @@ const Hero = () => {
             <span>+50</span>
             <span>treinos personalizados</span>
           </div>
-
-          <div className="hero-buttons">
-            <buttons className="btn">Começar</buttons>
-            <buttons className="btn">Saiba Mais</buttons>
-          </div>
         </div>
 
-
+        <div className="hero-buttons">
+          <buttons className='btn'>Começar</buttons>
+          <buttons className='btn' >Saiba Mais</buttons>
+        </div>
       </div>
-      <div className="right-h">lado direito
+      <div className="right-h">
+        <button className='btn'>Comece Agora</button>
+
+        <div className='heart-rate'>
+          <img src={Heart} alt="heart" />
+          <span>Frequência Cardíaca</span>116 bpm<span></span>
+        </div>
 
       </div>
     </div>
